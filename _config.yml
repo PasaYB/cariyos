@@ -26,7 +26,7 @@ description: >- # used by seo meta and the atom feed
 url: ""
 
 github:
-  username: PasaYB/studious-broccoli
+  username: PasaYB/cariyos
 
 twitter:
   username: osahahahah # change to your Twitter username
@@ -121,7 +121,7 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: PasaYB/studious-broccoli
+    repo: PasaYB/cariyos
     repo_id: R_kgDOSNCG1A
     category: Announcements
     category_id: DIC_kwDOSNCG1M4C7xtt
