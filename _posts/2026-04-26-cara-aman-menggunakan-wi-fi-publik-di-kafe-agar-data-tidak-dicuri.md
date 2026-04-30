@@ -7,6 +7,7 @@ tags: [jaringan komputer]
 authors: [<author1_id>, <author2_id>, <author3_id>, <author4_id>] 
 description: Jangan biarkan data pribadimu terancam saat kamu mengakses Wi-Fi di tempat umum. Pelajari cara paling aman dan praktis untuk melindungi perangkatmu dari risiko pencurian data melalui jaringan publik.
 pin: true
+image: /assets/img/68033b7784b67.jpg
 ---
 
 <!-- Sub Bab 1 -->
@@ -19,7 +20,7 @@ Namun, perbedaan utamanya ada pada aksesibilitas dan keamanan. Demi kenyamanan p
 
 ### Risiko keamanan apa saja yang terkait dengan penggunaan Wi-Fi publik?
 Karena sifatnya yang terbuka, terhubung ke Wi-Fi publik di kafe tanpa pengamanan ekstra sama dengan membiarkan pintu tidak terkunci. Berikut adalah beberapa risiko utama yang mengintai:
-- Serangan Man-in-the-Middle* (**MitM**): Ini adalah salah satu ancaman paling berbahaya. Peretas memposisikan diri mereka di tengah-tengah komunikasi antara perangkat kita dan titik akses Wi-Fi. Alih-alih berkomunikasi langsung dengan [*server*](https://bce.telkomuniversity.ac.id/server-pengertian-fungsi-jenis-dan-cara-kerjanya/), data kita melewati perangkat peretas terlebih dahulu, memungkinkan mereka **membaca** atau bahkan **mengubah** data tersebut.
+- Serangan Man-in-the-Middle (**MitM**): Ini adalah salah satu ancaman paling berbahaya. Peretas memposisikan diri mereka di tengah-tengah komunikasi antara perangkat kita dan titik akses Wi-Fi. Alih-alih berkomunikasi langsung dengan [*server*](https://bce.telkomuniversity.ac.id/server-pengertian-fungsi-jenis-dan-cara-kerjanya/), data kita melewati perangkat peretas terlebih dahulu, memungkinkan mereka **membaca** atau bahkan **mengubah** data tersebut.
 - Jaringan Palsu (**Evil Twin**): Peretas sering kali membawa [*router*](https://id.wikipedia.org/wiki/Perute) portabel mereka sendiri ke kafe dan membuat titik akses **palsu** dengan nama (SSID) yang sangat meyakinkan. Misalnya, jika nama Wi-Fi asli adalah "KopiSenja", peretas mungkin membuat jaringan bernama "KopiSenja_Free" atau "KopiSenja_Guest". Jika kita salah masuk ke jaringan palsu ini, peretas **memiliki kendali penuh** atas semua data yang kita kirimkan.
 - Pengintaian Data (**Snooping/Sniffing**): Dengan bantuan perangkat lunak khusus yang mudah didapatkan, peretas dapat memantau lalu lintas jaringan dan **menangkap** paket data yang tidak dienkripsi saat melayang di udara, termasuk pesan teks, kredensial *login*, dan riwayat penjelajahan.
 - Injeksi Malware: Jika perangkat kita memiliki celah keamanan, peretas di jaringan yang sama dapat dengan mudah **mengirimkan** dan **menanamkan** perangkat lunak berbahaya [*malware*](https://en.wikipedia.org/wiki/Malware) ke laptop atau ponsel kita tanpa kita sadari.
@@ -28,13 +29,13 @@ Karena sifatnya yang terbuka, terhubung ke Wi-Fi publik di kafe tanpa pengamanan
 
 ### Contoh kasus pencurian data melalui Wi-Fi publik
 Untuk memahami bahayanya, bayangkan skenario ini: 
-> Seseorang sedang duduk di kafe dan menyambungkan ponselnya ke Wi-Fi gratis untuk bekerja. Ia tidak sadar bahwa ia sebenarnya terhubung ke jaringan <span style="color: red;">Evil Twin</span>
- yang dikendalikan oleh peretas yang duduk hanya beberapa meja darinya.
+> Seseorang sedang duduk di kafe dan menyambungkan ponselnya ke Wi-Fi gratis untuk bekerja.
+Ia tidak sadar bahwa ia sebenarnya terhubung ke jaringan <span style="color: red;">Evil Twin</span>
+yang dikendalikan oleh peretas yang duduk hanya beberapa meja darinya.
 Orang tersebut kemudian membuka halaman web yang tidak terenkripsi atau aplikasi e-mail untuk membalas pesan penting, lalu lanjut melakukan transaksi belanja *online* menggunakan kartu kredit. Melalui teknik pengintaian (<span style="color: red;">sniffing</span>
 ), peretas dengan mudah **menangkap informasi** yang diketikkan korban mulai dari **username**, **kata sandi e-mail**, hingga nomor **CVV** kartu kreditnya.
 Kasus lain yang sangat umum adalah pembajakan sesi (<span style="color: red;">session hijacking</span>
 ). Saat kita login ke media sosial di jaringan publik, *server* mengirimkan "kue sesi" (*session cookie*) ke [*browser*](https://id.wikipedia.org/wiki/Peramban_web) kita agar kita tidak perlu terus-menerus *login* ulang. Peretas yang memantau jaringan dapat mencuri *cookie* ini di udara, memasukannya ke *browser* mereka sendiri, dan **mendapatkan akses instan** ke akun media sosial kita, mengubah kata sandi, atau bahkan menggunakannya untuk **menipu** kontak kita.
-
 
 
 
