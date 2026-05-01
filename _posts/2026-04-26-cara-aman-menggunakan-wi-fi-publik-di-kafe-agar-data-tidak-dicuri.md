@@ -21,8 +21,24 @@ Namun, perbedaan utamanya ada pada aksesibilitas dan keamanan. Demi kenyamanan p
 ### Risiko keamanan apa saja yang terkait dengan penggunaan Wi-Fi publik?
 Karena sifatnya yang terbuka, terhubung ke Wi-Fi publik di kafe tanpa pengamanan ekstra sama dengan membiarkan pintu tidak terkunci. Berikut adalah beberapa risiko utama yang mengintai:
 - Serangan Man-in-the-Middle (**MitM**): Ini adalah salah satu ancaman paling berbahaya. Peretas memposisikan diri mereka di tengah-tengah komunikasi antara perangkat kita dan titik akses Wi-Fi. Alih-alih berkomunikasi langsung dengan [*server*](https://bce.telkomuniversity.ac.id/server-pengertian-fungsi-jenis-dan-cara-kerjanya/), data kita melewati perangkat peretas terlebih dahulu, memungkinkan mereka **membaca** atau bahkan **mengubah** data tersebut.
+
+![mitm-ilustration](/assets/img/mitm.png){: .shadow w="300" h="200" } 
+_Ilustrasi Serangan MITM_
+
 - Jaringan Palsu (**Evil Twin**): Peretas sering kali membawa [*router*](https://id.wikipedia.org/wiki/Perute) portabel mereka sendiri ke kafe dan membuat titik akses **palsu** dengan nama (SSID) yang sangat meyakinkan. Misalnya, jika nama Wi-Fi asli adalah "KopiSenja", peretas mungkin membuat jaringan bernama "KopiSenja_Free" atau "KopiSenja_Guest". Jika kita salah masuk ke jaringan palsu ini, peretas **memiliki kendali penuh** atas semua data yang kita kirimkan.
+
+![ET-connected](/assets/img/Evil-Twin-Attack-connected.jpg){: .shadow w="300" h="200" } 
+_Korban Terhubung ke Titik Akses yang Benar_
+![ET-deauthentication](/assets/img/Evil-Twin-Attack-deauthentication.jpg){: .shadow w="300" h="200" } 
+_Korban Terhubung ke Access Point Palsu - Evil Twin Attack_
+
 - Pengintaian Data (**Snooping/Sniffing**): Dengan bantuan perangkat lunak khusus yang mudah didapatkan, peretas dapat memantau lalu lintas jaringan dan **menangkap** paket data yang tidak dienkripsi saat melayang di udara, termasuk pesan teks, kredensial *login*, dan riwayat penjelajahan.
+
+![ET-deauthentication](/assets/img/session1.png){: .shadow w="300" h="200" } 
+_Penyerang Memantau Komunikasi Korban_
+![ET-deauthentication](/assets/img/session2.png){: .shadow w="300" h="200" } 
+_Penyerang Mendapatkan Kredensial Korban_
+
 - Injeksi Malware: Jika perangkat kita memiliki celah keamanan, peretas di jaringan yang sama dapat dengan mudah **mengirimkan** dan **menanamkan** perangkat lunak berbahaya [*malware*](https://en.wikipedia.org/wiki/Malware) ke laptop atau ponsel kita tanpa kita sadari.
 
 
